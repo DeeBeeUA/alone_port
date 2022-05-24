@@ -1,8 +1,15 @@
+@import url('fonts.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .container {
     position: relative;
@@ -72,7 +79,7 @@ h2.header_promo {
     color: #f9bf3b;
 }
 
-.header .header_btn {
+.header .header_btn, .bonus_btn {
     /* btn */
     display: block;
     margin: 0 auto;
@@ -86,7 +93,6 @@ h2.header_promo {
     border-radius: 3px;
 
     /* text */
-
     text-align: center;
     font-size: 21px;
     font-weight: 400;
@@ -179,7 +185,6 @@ h2.header_promo {
 }
 
 .optimization .optimization_header {
-    font-family: Roboto;
     margin-left: 391px;
     font-size: 28px;
     font-weight: 900;
@@ -248,4 +253,97 @@ h2.header_promo {
     font-weight: 300;
     color: #efefef;
 }
+
+/* ----bonus-content---- */
+
+.bonus {
+    height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 83px 0;
+}
+
+.bonus_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bonus_descr {
+    margin-top: 42px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+}
+
+.vebinar {
+    height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.vebinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.vebinar_header {
+    margin-top: 37px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.vebinar_time {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.vebinar_descr{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+/* ----footer-content---- */
+
+
+.footer {
+    height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+
+    
+}
+
+.footer_tech {
+    display:flex;
+    justify-content: center;
+}
+
+.footer_tech_support, .footer_tech_suppurt, .footer_call_link {
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #888888;
+}
+
+.footer_tech_hhr {
+    margin: 0 5px;
+    color: #888888;
+}
+
+.footer_call {
+    margin-top: 5px;
+    text-align: center;
+    color: #888888;
+}
+
 
