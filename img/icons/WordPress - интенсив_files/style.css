@@ -122,7 +122,7 @@ h2.header_promo {
     padding: 85px 0 75px 0;
 }
 
-.intensive_header, .learn_header {
+.intensive_header, .learn .learn_header {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -218,34 +218,3 @@ h2.header_promo {
 .learn_header {
     color: #efefef;
 }
-
-.learn_wrapper {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 41px;
-}
-
-.learn_wrapper_item {
-    width: 180px;
-    
-}
-
-.learn_wrapper_item_radius {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: 0 auto;
-    width: 115px;
-    height: 115px;
-    background-color: #b4e2ff;
-    border-radius:100%;
-}
-
-.learn_wrapper_item_descr {
-    margin-top: 26px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 300;
-    color: #efefef;
-}
-
