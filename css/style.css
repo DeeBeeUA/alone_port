@@ -94,7 +94,8 @@ h2.header_promo {
 
     /* text */
     text-align: center;
-    font-size: 21px;
+    line-height: 24px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
